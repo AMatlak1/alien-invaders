@@ -8,9 +8,9 @@ void setup()
 {
  size(500,500);
  
- galaxy = loadImage("C:\\Users\\aleks\\Desktop\\Space.jpg");
- ship = loadImage("C:\\Users\\aleks\\Desktop\\SpaceShip3.png");
- alien = loadImage("C:\\Users\\aleks\\Desktop\\Invaders.png");
+ galaxy = loadImage("https://m.media-amazon.com/images/I/61I4xeQkQYL._AC_.jpg");
+ ship = loadImage("https://www.vhv.rs/dpng/d/410-4101003_galaga-ship-transparent-background-hd-png-download.png");
+ alien = loadImage("https://www.pngkit.com/png/full/217-2170373_space-invaders-alien-space-invaders-alien-sprite.png");
 }
 
 void draw()
@@ -32,7 +32,7 @@ void draw()
  //Enemy falling from top 
     if(enemyY < 550)
    {
-    enemyY = enemyY + 1; 
+    enemyY = enemyY + 2; 
    }
    else if(enemyY > 520)
    {
